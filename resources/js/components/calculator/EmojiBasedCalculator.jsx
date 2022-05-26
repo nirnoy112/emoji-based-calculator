@@ -66,7 +66,7 @@ const EmojiBasedCalculator = () => {
                 )}
 
                 <label htmlFor="first_operand">
-                    First Operand:{"  "}
+                    First Operand:
                     {firstOperandError && (
                         <span className="error-message">
                             {firstOperandError}
@@ -83,7 +83,7 @@ const EmojiBasedCalculator = () => {
                 />
 
                 <label htmlFor="operator">
-                    Operator:{"  "}
+                    Operator:
                     {operatorError && (
                         <span className="error-message">{operatorError}</span>
                     )}
@@ -103,7 +103,7 @@ const EmojiBasedCalculator = () => {
                 </select>
 
                 <label htmlFor="second_operand">
-                    Second Operand:{"  "}
+                    Second Operand:
                     {secondOperandError && (
                         <span className="error-message">
                             {secondOperandError}

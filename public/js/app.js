@@ -5484,7 +5484,7 @@ var EmojiBasedCalculator = function EmojiBasedCalculator() {
         children: ["API ERROR: ", APISecretKeyError]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("label", {
         htmlFor: "first_operand",
-        children: ["First Operand:", "  ", firstOperandError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+        children: ["First Operand:", firstOperandError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
           className: "error-message",
           children: firstOperandError
         })]
@@ -5498,7 +5498,7 @@ var EmojiBasedCalculator = function EmojiBasedCalculator() {
         }
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("label", {
         htmlFor: "operator",
-        children: ["Operator:", "  ", operatorError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+        children: ["Operator:", operatorError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
           className: "error-message",
           children: operatorError
         })]
@@ -5526,7 +5526,7 @@ var EmojiBasedCalculator = function EmojiBasedCalculator() {
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("label", {
         htmlFor: "second_operand",
-        children: ["Second Operand:", "  ", secondOperandError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+        children: ["Second Operand:", secondOperandError && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
           className: "error-message",
           children: secondOperandError
         })]
