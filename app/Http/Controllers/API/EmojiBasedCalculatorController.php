@@ -24,7 +24,7 @@ class EmojiBasedCalculatorController extends Controller
             'success' => true,
             'message' => 'Calculation is successfully completed',
             'request_data' => $validated_data,
-            'result' => is_float($answer) || is_double($answer) ? number_format($answer, 2) : $answer
+            'result' => is_float($answer) || is_double($answer) ? number_format($answer, 2) : number_format($answer, 0)
         ]);
     }
 
